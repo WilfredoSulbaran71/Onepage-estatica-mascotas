@@ -1,0 +1,226 @@
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ body{
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+
+
+h1{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+
+#title{
+    background-color: #3870c5;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.title{
+    font-size: 4rem;
+    font-family: "Montserrat-black", sans-serif;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.navbar.navbar-expand-lg.navbar-dark{
+    padding-bottom: 4rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:  "Montserrat-light", sans-serif;
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.btndescarga{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    position:absolute ;
+    margin-left: 40px;
+    width: 35%;
+    transform: rotate(15deg);
+    border: 5px solid    white;
+    border-radius: 15%;
+    
+}
+
+#features{
+   
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-row{
+    padding: 2rem 2rem;
+    text-align: center;
+    font-family:"Montserrat-light", sans-serif;
+}
+.feature-row i{
+    font-size: 50px;
+    margin-bottom: 1rem;
+    color: blue;
+}
+
+.feature-row h3{
+    font-weight: bold;
+}
+
+.feature-row p{
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+.fas:hover{
+    color: rgb(133, 135, 240);
+}
+
+#testimonials{
+    background-color: rgb(149, 183, 235) ;
+
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat-black", sans-serif;
+}
+.testimonials-title{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.testimonial-img{
+    width: 150px;
+    border-radius: 100%;
+    margin: 2.5rem;
+}
+
+#press{
+    background-color: rgb(149, 183, 235) ;
+   text-align: center;
+   padding-bottom: 1rem;
+}
+.press-img{
+    width: 200px;
+    margin: 0 30px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.card{
+    width: 90%;
+    margin:  auto;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 3%;
+    border: solid 1px rgb(149, 183, 235);
+    
+}
+
+.btn-card{
+    width: 90%;
+}
+
+#pricing{
+    text-align: center;
+        
+}
+
+.pricing-subtitle{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.row-card{
+    padding: 50px 20px;
+
+}
+
+.pricing-title{
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-subtitle{
+    font-weight: 500;
+}
+
+#cta{
+    background-color: rgb(149, 183, 235) ;
+    text-align: center;
+    
+}
+
+.btn-cta{
+    margin: 0 10px;
+}
+
+.cta-title{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer{
+    padding: 7% 15%;
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.fab-logo{
+    font-size: 30px;
+    margin: 20px 5px ;
+    
+}
+
+@media(max-width: 988px) {
+    #title{
+        text-align: center;
+        
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        margin-left: 0;
+        width: 53%;
+     }
+    
+    
+}
